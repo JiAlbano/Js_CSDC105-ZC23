@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+*{
+  
+}
+:root{
+    --primary-color: #F78104;
+    --text-color: rgb(255, 255, 255);
+}
+ body {
+    font-family: Itim ;
+    background: hsl(0, 6%, 63%);
+      
+    margin: center;
+ }
+
+
+form {
+
+    border-radius: 5px;
+    width: 30%;
+
+    background-color: white;
+
+    margin: 10px 10px 10px 10px;
+
+    padding: 10px 10px 10px 10px;
+
+    display: inline-block;
+
+    text-align: left;
+
+}
+
+
+h1 {
+
+    text-align: left;
+
+}
+
+
+.wrap {
+
+    text-align: center;
+
+}
+
+
+
+
+.content {
+
+    margin: 10px 10px 10px 10px;
+
+}
+
+
+
+
+form input {
+
+    display: block;
+
+    width: 100%;
+
+
+
+
+}
+
+
+
+
+form textarea {
+
+    display: block;
+
+    width: 100%;
+
+}
+
+
+
+
+.radio {
+
+    display: flex;
+
+    flex-direction: row;
+
+}
+
+
+
+
+.buttons {
+
+    display: flex;
+ 
+    justify-content: space-between;
+    
+    align-items: center;
+
+    color: white;
+
+}
+
+.style2 {
+    color: red;
+}
+.style1 {
+    color: green;
+}
+
+
+input[type="button"] {
+   
+    background-color: green;
+
+    color: white;
+
+}
+
+
+
+
+input[type="reset"] {
+ 
+    
+    background-color: red;
+
+    color: white;
+
+}
+
+button:hover{
+    background-color: rgb(221, 65, 65);
+    transition: 0.2s;
+}

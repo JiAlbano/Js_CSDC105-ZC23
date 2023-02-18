@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+
+
+
+<html>
+    <head>
+        <title>Form Activity</title>
+
+        <script src="jvscript.js"></script>
+        <link rel="stylesheet" href="style.1.css" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    </head>
+
+    <body>
+
+        <div class="wrap">
+
+            <form name="myform">
+
+                <section class="content">
+                    <h1>Registration Form</h1>
+                    <p class = "style1"id="successmsg"></p>
+                    First Name:
+                    <input type="text" name="firstname" />
+                    Last Name: <input type="text" name="lastname" />
+                    Nick Name: <input type="text" name="nickname" />
+                    Email: <input type="email" name="email" id="emailAddress" />
+                    Password: <input type="password" name="password" id="pw" />
+                    <p class = "style2"id="errormsg1"></p>
+                    Date of Birth: <input type="date" name="bday" id="date" />
+                    <p class = "style2"id="errormsg2"></p>
+                    Gender:
+                    <div class="radio">
+                        <input type="radio" name="male" value="male" /> Male
+                        <input type="radio" name="female" value="female" />
+                        Female
+                        <input type="radio" name="other" value="other" /> Other
+                    </div>
+
+                    Mobile: <input type="number" name="mobile" />
+                    Address: <textarea name="address" cols="25" rows="5"></textarea>
+                   
+                    <div class="buttons">
+
+                        <input type="button" name="submit" value="submit"
+                            onclick="button()" />
+                        <input type="reset" name="reset" value="Reset" onclick="resetMessages()"/>
+
+                    </div>
+
+                </section>
+
+            </form>
+
+        </div>
+
+    </body>
+
+</html>
